@@ -1,5 +1,5 @@
 
-Activity:
+#Activity:
 
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
@@ -7,7 +7,6 @@ Activity:
 # `ruby hashes_1.rb`
 
 foods = {"apples": 23, "grapes": 507, "eggs": 48}
-p zoo
 
 # Write code that prints all of the 'keys' of the foods variable
 # you created above:
@@ -38,26 +37,25 @@ foods["strawberries"] = 16
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 # Write code that prints your email hash to the terminal.
-email = {
+emails = {
   sender: "Spambot usually",
   recipient: "Person who never should have taken that facebook survey",
   cc: "Your facebook friends",
   bcc: "Your entire contact list if this goes right",
   subject: "We got you sucker!!",
-  body: "Your computer has a virus but we have an overseas anti-viral team who
-    can go into your computer, show it to you and tell you how much it will be
-    to remove that virus we just installed",
-  link: "It's totally okay to click this. What else are you going to do
-    on your work computer"
+  body: "Your computer has a virus but we have an overseas anti-viral team who can go into your computer, show it to you and tell you how much it will be to remove that virus we just installed",
+  link: "It's totally okay to click this. What else are you going to do on your work computer"
 }
+
+p emails
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
-p email.keys
+p emails.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-p email.values
+p emails.values
 
 
 #-------------------
@@ -125,3 +123,6 @@ emails = [
     subject: "Why bother? Great-grandma is expecting a physical letter."
   }
 ]
+
+p emails
+p emails[0]
