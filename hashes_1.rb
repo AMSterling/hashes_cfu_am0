@@ -23,7 +23,7 @@ p foods["grapes"]
 # Write code that adds a food to the foods hash.
 # Then, print the updated hash:
 foods["strawberries"] = 16
-
+p foods
 
 #-------------------
 # Part 2: Email
