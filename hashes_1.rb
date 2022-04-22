@@ -11,19 +11,19 @@ p zoo
 
 # Write code that prints all of the 'keys' of the foods variable
 # you created above:
-# p foods.keys
+p foods.keys
 
 # Write code that prints all of the 'values' of the foods variable
 # you created above:
-# p foods.values
+p foods.values
 
 # Write code that prints the value of the second food of the foods variable
 # you created above:
-# p foods["grapes"]
+p foods["grapes"]
 
 # Write code that adds a food to the foods hash.
 # Then, print the updated hash:
-# foods["strawberries"] = 16
+foods["strawberries"] = 16
 
 
 #-------------------
@@ -53,11 +53,11 @@ email = {
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
-# p email.keys
+p email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-# p email.values
+p email.values
 
 
 #-------------------
@@ -118,5 +118,10 @@ emails = [
     sender: "XXX",
     recipient: "Guy who looked up nude celebrity once in college",
     subject: "Report Spam all you want; you're never gonna live this down!"
+  },
+  {
+    sender: "You",
+    recipient: "Great-Grandma",
+    subject: "Why bother? Great-grandma is expecting a physical letter."
   }
 ]
