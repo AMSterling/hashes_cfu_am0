@@ -9,7 +9,7 @@ states = {
 
 # Use the each method to iterate through it and print out a sentence stating each state name and abbreviation
 states.each do |state, abbrev|
-  puts "#{state} isn't all that great, have you considered moving?"
+  puts "#{abbrev} or #{state} if you insist; isn't all that great, have you considered moving?"
 end
 
 
